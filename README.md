@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Ghostfolio MVP
 
-## Getting Started
+Ghostfolio is an **interactive learning platform** that reimagines how junior developers build projects.  
+Think *Duolingo for coding* — where each project is broken down into guided tasks and steps, complete with progress tracking and code previews.
 
-First, run the development server:
+This MVP demonstrates the **core experience**: selecting a project, following structured tasks, marking progress, and returning later to pick up where you left off.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Vision
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Software engineering is best learned by building real things.  
+Ghostfolio’s mission is to **accelerate developer growth** by combining:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- ✅ **Structured, bite-sized tasks** → clear roadmap for projects  
+- ✅ **Immediate feedback** → track progress and stay motivated  
+- ✅ **Portfolio-ready outcomes** → every project builds towards a showcaseable skillset  
 
-## Learn More
+This MVP is the foundation for a future SaaS platform where learning meets entrepreneurship.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Built with a modern, scalable stack to ensure rapid iteration and investor-ready deployment:
 
-## Deploy on Vercel
+- [Next.js 15](https://nextjs.org/) — App Router, Server Actions  
+- [TypeScript](https://www.typescriptlang.org/) — type-safe foundation  
+- [TailwindCSS](https://tailwindcss.com/) — fast, modern styling  
+- [shadcn/ui](https://ui.shadcn.com/) — enterprise-grade UI components  
+- [Lucide Icons](https://lucide.dev/) — clean, lightweight icon system  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚡ Features (MVP)
+
+- 🔍 **Projects Dashboard** → choose from curated sample projects  
+- 📋 **Task & Step Flow** → break projects into guided milestones  
+- ✅ **Progress Tracking** → completion saved via cookies (SSR-consistent)  
+- 🎨 **Modern UI/UX** → responsive, sleek, investor-ready interface  
+- 🚀 **Deployable** → ready for Vercel, GitHub Actions, and scaling  
+
+---
+
+## 📂 Project Structure
